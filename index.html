@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Yadav CF - Crowdfunding Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand {
+            color: #fff;
+        }
+        .plans-section {
+            padding: 2rem 0;
+        }
+        .plan-card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .plan-card h5 {
+            color: #007bff;
+        }
+        .dashboard {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Atul Yadav CF</a>
+</nav>
+
+<!-- Recharge Plans Section -->
+<section class="plans-section container text-center">
+    <h2 class="my-4">Choose a Recharge Plan</h2>
+    <div class="row">
+        <!-- Example Plan Card 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card plan-card p-3">
+                <h5 class="card-title">Silver Plan</h5>
+                <p class="card-text">Invest ₹5000</p>
+                <p class="card-text">Daily Earnings: ₹100 for 30 days</p>
+                <button class="btn btn-primary">Recharge Now</button>
+            </div>
+        </div>
+        <!-- Example Plan Card 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card plan-card p-3">
+                <h5 class="card-title">Gold Plan</h5>
+                <p class="card-text">Invest ₹10,000</p>
+                <p class="card-text">Daily Earnings: ₹250 for 40 days</p>
+                <button class="btn btn-primary">Recharge Now</button>
+            </div>
+        </div>
+        <!-- Example Plan Card 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card plan-card p-3">
+                <h5 class="card-title">Platinum Plan</h5>
+                <p class="card-text">Invest ₹20,000</p>
+                <p class="card-text">Daily Earnings: ₹600 for 50 days</p>
+                <button class="btn btn-primary">Recharge Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- User Dashboard Section -->
+<section class="container">
+    <div class="dashboard text-center">
+        <h3>Your Dashboard</h3>
+        <p>Selected Plan: <strong>Gold Plan</strong></p>
+        <p>Daily Earnings: <strong>₹250</strong></p>
+        <p>Days Remaining: <strong>30</strong></p>
+        <button class="btn btn-success">Withdraw Earnings</button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Atul Yadav CF. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
